@@ -1,5 +1,5 @@
 import { createStore } from 'redux'
-import basicReducer from './basicReducer.js'
+import basicReducer from './basicReducer'
 
 export default () => createStore(
   basicReducer,

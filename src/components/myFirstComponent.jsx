@@ -1,8 +1,8 @@
 import React from 'react'
-import store from '../store.js'
+import store from '../store'
 import { connect } from 'react-redux'
-import BasicButton from './BasicButton.jsx'
-import incrementCount from '../actions/incrementCount.js'
+import BasicButton from './basicButton'
+import incrementCount from '../actions/incrementCount'
 
 const mapStateToProps = (state) => ({
   contador: state.count
